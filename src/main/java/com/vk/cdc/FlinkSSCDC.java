@@ -25,6 +25,8 @@ public class FlinkSSCDC {
         //设置检查点
         env.enableCheckpointing(5000L);
         //ceshi
+        //第二次提交
+
         //建立第一张表
         tableEnv.executeSql("CREATE TABLE biz_house_info (\n" +
                 "   SITE_CODE VARCHAR,\n" +
